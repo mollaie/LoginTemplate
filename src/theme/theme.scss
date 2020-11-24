@@ -1,0 +1,106 @@
+ion-content::part(background) {
+  --background: url("../assets/Background.svg") no-repeat center center / cover;
+  background: url("../assets/Background.svg") no-repeat center center / cover;
+  z-index: 1;
+  left: -1%;
+  width: 110%;
+}
+
+ion-content {
+  --padding-start: 16px !important;
+  --padding-end: 16px !important;
+  --padding-top: 0px !important;
+  --padding-bottom: 16px !important;
+  --padding: 16px !important;
+
+  .header {
+    z-index: 2;
+    position: relative;
+    width: 100%;
+    h1 {
+      font-size: xx-large;
+      color: var(--ion-color-primary);
+      font-weight: bold;
+      font-family: "Anton";
+    }
+    p {
+      font-family: "Roboto";
+    }
+  }
+
+  ion-item {
+    --padding: 0;
+    --padding-start: 0 !important;
+    --padding-end: 0 !important;
+    width: 100%;
+    background-color: transparent;
+  }
+
+  ion-item::part(native) {
+    border: none;
+    border-color: var(ion-color-light);
+    background: transparent;
+    --inner-padding-end:0!important;
+  }
+  
+  ion-grid{
+      position: relative;
+      z-index: 2;
+  }
+
+
+  ion-label {
+    width: 100%;
+  }
+
+  ion-input {
+    margin-top: 8px;
+    border: 1px solid var(--ion-color-primary);
+    border-radius: 8px;
+    --padding-start: 16px !important;
+    --padding-end: 16px !important;
+    --padding-top: 16px !important;
+    --padding-bottom: 16px !important;
+    --padding: 16px !important;
+    --background: #ffffff !important;
+  }
+
+  ion-button {
+    color: var(--ion-color-light);
+    text-transform: uppercase;
+    --padding-start: 16px !important;
+    --padding-end: 16px !important;
+    --padding-top: 16px !important;
+    --padding-bottom: 16px !important;
+    --padding: 16px !important;
+    margin: 80px 0 32px 0;
+    z-index: 2;
+    position: relative;
+    height: 56px;
+  }
+}
+
+.forgot-password {
+  width: 100%;
+  font-size: small;
+  position: relative;
+  z-index: 2;
+}
+
+.description {
+  opacity: 0.38;
+  font-size: small;
+  position: relative;
+  z-index: 2;
+}
+
+.singup {
+  text-align: center;
+  font-size: small;
+  position: relative;
+  z-index: 2;
+  a {
+    font-weight: bold;
+    font-family: "Roboto";
+  }
+}

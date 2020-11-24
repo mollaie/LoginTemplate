@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="343" height="780" viewBox="0 0 343 780">
+  <g id="Background" transform="translate(-16 -16)">
+    <g id="Rectangle_385" data-name="Rectangle 385" transform="translate(16 16)" fill="#fff" stroke="#073789" stroke-width="1">
+      <rect width="343" height="780" rx="30" stroke="none"/>
+      <rect x="0.5" y="0.5" width="342" height="779" rx="29.5" fill="none"/>
+    </g>
+    <path id="Intersection_1" data-name="Intersection 1" d="M451.066,780a30,30,0,0,1-30-30V369.216L560.938,286.3A58,58,0,0,1,645.879,318.9L764.067,697.449V750a30,30,0,0,1-30,30Z" transform="translate(-405.067 16)" fill="#9abaf0" opacity="0.38"/>
+  </g>
+</svg>
